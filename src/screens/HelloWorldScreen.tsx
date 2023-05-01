@@ -5,9 +5,10 @@ export const HelloWorldScreen = () => {
     return (
         <View style={{
             flex: 1,
-            justifyContent: 'center'
+            justifyContent: 'center',alignContent:"center"
+            
           }}>
-            <Text style={{fontSize:45,textAlign:"center"}}>HELLO HELLO</Text>
+            <Text style={{fontSize:45,textAlign:"center",}}>HELLO HELLO</Text>
         </View>
     )
 }
